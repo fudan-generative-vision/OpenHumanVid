@@ -12,6 +12,7 @@ declare module 'vue' {
     AModal: typeof import('ant-design-vue/es')['Modal']
     ASegmented: typeof import('ant-design-vue/es')['Segmented']
     BibTeX: typeof import('./src/components/BibTeX.vue')['default']
+    DatasetDownload: typeof import('./src/components/DatasetDownload.vue')['default']
     FrameworkSection: typeof import('./src/components/FrameworkSection.vue')['default']
     HelloWorld: typeof import('./src/components/HelloWorld.vue')['default']
     IconCommunity: typeof import('./src/components/icons/IconCommunity.vue')['default']

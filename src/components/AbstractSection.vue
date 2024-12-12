@@ -1,7 +1,7 @@
 <template>
     <section class="abstract">
         <div>
-            <h3>{{ title }}</h3>
+            <h2>{{ title }}</h2>
             <div v-if="figure" class="figure">
                 <img :src="figure">
             </div>
@@ -29,8 +29,15 @@ const video = (props.video || "").startsWith("assets") ? new URL(`../${props.vid
 
 <style lang="scss" scoped>
 .abstract {
+    h2 {
+        // font-family: 'Caveat', cursive;
+        // font-size: 2.5rem;
+        margin-top: 0px;
+        margin-bottom: 70px;
+    }
     div {
-        max-width: 960px;
+        max-width: 1400px;
+        margin-top: 50px;
         @apply w-full mt-2;
     }
 
@@ -41,9 +48,15 @@ const video = (props.video || "").startsWith("assets") ? new URL(`../${props.vid
             @apply mr-2;
         }
     }
+    .figure {
+        margin-top: 10px;
+        max-width: 1400px;
+        margin: 1rem 0;
+    }
 }
 
 .figure {
+    max-width: 1200px;
     margin: 1rem 0;
 }
 

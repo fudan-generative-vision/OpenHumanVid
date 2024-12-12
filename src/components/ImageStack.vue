@@ -1,6 +1,6 @@
 <template>
     <section class="image-stack">
-      <h3>{{ title }}</h3>
+      <h2>{{ title }}</h2>
       <div>
         <img
           v-for="(image, index) in images"
@@ -28,15 +28,24 @@ const images = props.imageList || []
 </script>
 
 <style lang="scss" scoped>
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&display=swap');
+
+
+h2 {
+    // font-family: 'Caveat', cursive;
+    margin-top: 0px; /* 减小与视频网格的间距 */
+    margin-bottom: 0px; /* 减小与视频网格的间距 */
+}
+
 .image-stack {
     div {
-        max-width: 960px;
+        max-width: 1400px;
         @apply w-full mt-2;
     }
 }
 
 img {
-    margin: 1rem 0;
+    margin: 2rem 0;
 }
 
 </style>
