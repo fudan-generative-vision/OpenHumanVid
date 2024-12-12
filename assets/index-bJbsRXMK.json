@@ -266,7 +266,7 @@
     "template": "image-stack",
     "props": {
       "title": "Statistics of OpenHumanVid",
-      "imageList": ["src/figs/dist1.png", "src/figs/dist2.png", "src/figs/word_count_.png"]
+      "imageList": ["https://cdn.aondata.work/OpenHumanVid/assets/images/dist1.png", "https://cdn.aondata.work/OpenHumanVid/assets/images/dist2.png", "https://cdn.aondata.work/OpenHumanVid/assets/images/word_count_.png"]
     }
   },
   {
