@@ -85,6 +85,20 @@ OpenHumanVid is a large-scale and high-quality human-centric video dataset chara
 
 
 ## Dataset
+### Statistics of OpenHumanVid
+<p align="center" width="100%">
+<a target="_blank"><img src="https://cdn.aondata.work/OpenHumanVid/assets/images/statistic.png" style="width: 100%; min-width: 200px; display: block; margin: auto;"></a>
+</p>
+
+### Motion conditions of OpenHumanVid
+<p align="center" width="100%">
+<a target="_blank"><img src="https://cdn.aondata.work/OpenHumanVid/assets/images/motions.png" style="width: 100%; min-width: 200px; display: block; margin: auto;"></a>
+</p>
+
+### Comparison with existing datasets
+<p align="center" width="100%">
+<a target="_blank"><img src="https://cdn.aondata.work/OpenHumanVid/assets/images/table.png" style="width: 100%; min-width: 200px; display: block; margin: auto;"></a>
+</p>
 
 ### Collection Pipeline
 <p align="center" width="100%">
@@ -93,9 +107,7 @@ OpenHumanVid is a large-scale and high-quality human-centric video dataset chara
 We preprocess raw videos through decoding, cropping, and segmentation, followed by quality filtering based on luminance, blur, aesthetics, motion, and technical metrics. Human skeleton data and speech audio are extracted, and structured captions are generated using MiniCPM, CogVLM, and Llama, refined by BLIP2 voting. Advanced quality filtering ensures captions align with visual details like appearance, expressions, and poses for fine-grained accuracy.
 
 ### Download
-| Download  | # Samples | Video Duration | Storage Space|
-|----------|-----------|----------------|--------------|
-| [link](https://forms.gle/moqec5Qod7mz9pfD6) | 13.2M | 16.7 khrs  | ~6.05 TB  |
+Coming soon!
 
 
 ## License of OpenHumanVid
