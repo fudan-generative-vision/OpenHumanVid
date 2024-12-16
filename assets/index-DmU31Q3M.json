@@ -266,6 +266,20 @@
     "template": "image-stack",
     "props": {
       "title": "Statistics of OpenHumanVid",
+      "imageList": ["https://cdn.aondata.work/OpenHumanVid/assets/images/statistic.png"]
+    }
+  },
+  {
+    "template": "image-stack",
+    "props": {
+      "title": "Motion conditions of OpenHumanVid",
+      "imageList": ["https://cdn.aondata.work/OpenHumanVid/assets/images/motions.png"]
+    }
+  },
+  {
+    "template": "image-stack",
+    "props": {
+      "title": "Comparison with existing datasets",
       "imageList": ["https://cdn.aondata.work/OpenHumanVid/assets/images/dist1.png", "https://cdn.aondata.work/OpenHumanVid/assets/images/dist2.png", "https://cdn.aondata.work/OpenHumanVid/assets/images/word_count_.png"]
     }
   },
@@ -283,7 +297,7 @@
       "title": "Download OpenHumanVid",
       "datasets": [
       {
-        "name": "Dataset [full]",
+        "name": "Dataset [coming soon❤️❤️❤️]",
         "details": "13.2M samples / 16.7 khrs duration / ~6.05 TB"
       }
     ],
