@@ -280,7 +280,7 @@
     "template": "image-stack",
     "props": {
       "title": "Comparison with existing datasets",
-      "imageList": ["https://cdn.aondata.work/OpenHumanVid/assets/images/dist1.png", "https://cdn.aondata.work/OpenHumanVid/assets/images/dist2.png", "https://cdn.aondata.work/OpenHumanVid/assets/images/word_count_.png"]
+      "imageList": ["https://cdn.aondata.work/OpenHumanVid/assets/images/table.png"]
     }
   },
   {
@@ -319,3 +319,4 @@
     }
   }
 ]
+
