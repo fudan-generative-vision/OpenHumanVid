@@ -107,7 +107,7 @@ OpenHumanVid is a large-scale and high-quality human-centric video dataset chara
 We preprocess raw videos through decoding, cropping, and segmentation, followed by quality filtering based on luminance, blur, aesthetics, motion, and technical metrics. Human skeleton data and speech audio are extracted, and structured captions are generated using MiniCPM, CogVLM, and Llama, refined by BLIP2 voting. Advanced quality filtering ensures captions align with visual details like appearance, expressions, and poses for fine-grained accuracy.
 
 ### Download
-Coming soon!
+Please fill out [this form](https://forms.gle/moqec5Qod7mz9pfD6). Once we receive your submission, we'll send you the download instructions. 
 
 
 ## License of OpenHumanVid
