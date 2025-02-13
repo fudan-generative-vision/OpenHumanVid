@@ -22,6 +22,15 @@ This is the offical Github repository of OpenHumanVid.
 ## Introduction
 OpenHumanVid is a large-scale and high-quality human-centric video dataset characterized by precise and detailed captions that encompass both human appearance and motion states, along with supplementary human motion conditions, including skeleton sequences and speech audio.
 
+## Download
+If you wish to download the OpenHumanVid dataset, please follow these steps:
+
+1. **Fill out the form**: Carefully fill out [this form](https://forms.gle/moqec5Qod7mz9pfD6). When filling it out, make sure that the information you provide is accurate, especially **your email address**, as it is crucial for us to send you the download link later.
+2. **Await email delivery**: Once we receive your submitted form, we will review the information you provided. After the review is approved, we will promptly send an email containing the download link to the email address you filled in. Please keep an eye on your inbox, including the spam or junk mail folders, to avoid missing the download link.
+3. **Download the dataset**: After receiving the email, you can click on the download link in the email and follow the instructions on the page to complete the dataset download process. If you encounter any issues during the download or do not receive the email within a reasonable time, please contact us at our email address openhumanvid@gmail.com, and we will do our best to assist you.
+
+**Note:** In order to ensure the proper use of the dataset and prevent misuse, we need to review the information you submit. By downloading and using this dataset, you are required to comply with [**the license**](https://github.com/fudan-generative-vision/OpenHumanVid/blob/main/LICENSE). Thank you for your understanding and cooperation. 
+
 ## Demonstration
 ### Video-Caption Pairs in OpenHumanVid
 
@@ -105,9 +114,6 @@ OpenHumanVid is a large-scale and high-quality human-centric video dataset chara
 <a target="_blank"><img src="assets/pipeline.png" style="width: 100%; min-width: 200px; display: block; margin: auto;"></a>
 </p>
 We preprocess raw videos through decoding, cropping, and segmentation, followed by quality filtering based on luminance, blur, aesthetics, motion, and technical metrics. Human skeleton data and speech audio are extracted, and structured captions are generated using MiniCPM, CogVLM, and Llama, refined by BLIP2 voting. Advanced quality filtering ensures captions align with visual details like appearance, expressions, and poses for fine-grained accuracy.
-
-### Download
-Please fill out [this form](https://forms.gle/moqec5Qod7mz9pfD6). Once we receive your submission, we'll send you the download instructions. 
 
 
 ## License of OpenHumanVid
