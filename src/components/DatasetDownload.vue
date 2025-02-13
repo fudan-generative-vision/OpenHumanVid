@@ -24,6 +24,10 @@
             {{ updates.description }}
             <a :href="updates.links.details">Fill out the form</a>.
           </p>
+          <p>
+            {{ updates.description2 }}
+            <a :href="updates.links.email">openhumanvid@gmail.com</a>.
+          </p>
         </div>
         
       </div>
@@ -39,9 +43,11 @@
   interface Updates {
     date: string;
     description: string;
+    description2: string;
     links: {
       details: string;
       license: string;
+      email: string;
     };
     notes: string;
   }
