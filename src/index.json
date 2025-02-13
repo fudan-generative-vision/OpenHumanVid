@@ -91,6 +91,29 @@
     }
   },
   {
+    "template": "dataset-download",
+    "props": {
+      "title": "Download OpenHumanVid",
+      "datasets": [
+      {
+        "name": "Dataset [click me for application]",
+        "details": "13.2M samples / 16.7 khrs duration / ~6.05 TB"
+      }
+    ],
+    "updates": {
+      "date": "Dec 2024",
+      "description": "To prevent the misuse of OpenHumanVid dataset, we require your information to be submitted for review and approval prior to granting access for download.",
+      "description2": "After we prove it, we will send you the download instructions in 1-2 days. After receiving the download instruction email, you can click on the download link in the email and follow the instructions on the page to complete the dataset download process. If you encounter any issues during the download or do not receive the email within a reasonable time, please contact us at our email address ",
+      "links": {
+        "details": "https://forms.gle/moqec5Qod7mz9pfD6",
+        "email": "mailto:openhumanvid@gmail.com",
+        "license": "https://raw.githubusercontent.com/fudan-generative-vision/OpenHumanVid/refs/heads/main/LICENSE"
+      },
+      "notes": "The video samples are collected from the publicly available dataset. Users must follow the related license to use these video samples. "
+      }
+    }
+  },
+  {
     "template": "video-carousel",
     "props": {
         "id": "showcase",
@@ -289,27 +312,6 @@
       "title": "Collection Pipeline of OpenHumanVid",
       "figure": "//cdn.aondata.work/OpenHumanVid/assets/images/datapipeline.jpg",
       "content": "We preprocess raw videos through decoding, cropping, and segmentation, followed by quality filtering based on luminance, blur, aesthetics, motion, and technical metrics. Human skeleton data and speech audio are extracted, and structured captions are generated using MiniCPM, CogVLM, and Llama, refined by BLIP2 voting. Advanced quality filtering ensures captions align with visual details like appearance, expressions, and poses for fine-grained accuracy."
-    }
-  },
-  {
-    "template": "dataset-download",
-    "props": {
-      "title": "Download OpenHumanVid",
-      "datasets": [
-      {
-        "name": "Dataset [coming soon❤️❤️❤️]",
-        "details": "13.2M samples / 16.7 khrs duration / ~6.05 TB"
-      }
-    ],
-    "updates": {
-      "date": "Dec 2024",
-      "description": "To prevent the misuse of OpenHumanVid dataset, we require your information to be submitted for review and approval prior to granting access for download.",
-      "links": {
-        "details": "https://forms.gle/moqec5Qod7mz9pfD6",
-        "license": "https://raw.githubusercontent.com/fudan-generative-vision/OpenHumanVid/refs/heads/main/LICENSE"
-      },
-      "notes": "The video samples are collected from the publicly available dataset. Users must follow the related license to use these video samples."
-      }
     }
   },
   {
