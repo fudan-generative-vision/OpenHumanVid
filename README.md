@@ -1,23 +1,33 @@
-# OpenHumanVid
-This is the offical Github repository of OpenHumanVid.
+<h1 align='center'>OpenHumanVid: A Large-Scale High-Quality Dataset for Enhancing Human-Centric Video Generation</h1>
+<div align='center'>
+    <a href='https://github.com/crystallee-ai' target='_blank'>Hui Li</a><sup>1*</sup>&emsp;
+    <a href='https://github.com/xumingw' target='_blank'>Mingwang Xu</a><sup>1*</sup>&emsp;
+    <a href='https://github.com/subazinga' target='_blank'>Yun Zhan</a><sup>1</sup>&emsp;
+    <a href='https://github.com/AricGamma' target='_blank'>Shan Mu</a><sup>1</sup>&emsp;
+    <a href='https://github.com/Studentxll' target='_blank'>Jiaye Li</a><sup>1</sup>&emsp;
+    <a href='https://github.com/Kaihui-Cheng' target='_blank'>Kaihui Cheng</a><sup>1</sup>&emsp;
+    <a href='https://github.com/Shr1ke777' target='_blank'>Yuxuan Chen</a><sup>1</sup>&emsp;
+    <a href='https://github.com/tchen0623' target='_blank'>Tan Chen</a><sup>1</sup>&emsp;
+</div>
+<div align='center'>
+    <a href='#' target='_blank'>Mao Ye</a><sup>3</sup>&emsp;
+    <a href='https://jingdongwang2017.github.io/' target='_blank'>Jingdong Wang</a><sup>2</sup>&emsp;
+    <a href='https://sites.google.com/site/zhusiyucs/home' target='_blank'>Siyu Zhu</a><sup>1</sup>&emsp;
+</div>
+<div align='center'>
+    <sup>1</sup>Fudan University&emsp; <sup>2</sup>Baidu Inc&emsp; <sup>3</sup>Shanghai Jiaotong University
+</div>
+<br>
 
-**[OpenHumanVid: A Large-Scale High-Quality Dataset for Enhancing Human-Centric Video Generation](https://fudan-generative-vision.github.io/OpenHumanVid/#/)**
-</br>
-[Hui Li*](https://github.com/crystallee-ai),
-[Mingwang Xu*](https://github.com/xumingw),
-[Yun Zhan](https://github.com/subazinga),
-[Shan Mu](https://github.com/AricGamma),
-[Jiaye Li](https://github.com/Studentxll),
-[Kaihui Cheng](https://github.com/Kaihui-Cheng),
-[Yuxuan Chen](https://github.com/Shr1ke777),
-[Tan Chen](https://github.com/tchen0623),
-[Mao Ye](#),
-[Jingdong Wang](https://jingdongwang2017.github.io/),
-[Siyu Zhu](https://sites.google.com/site/zhusiyucs/home),
-</br>
+<div align='center'>
+  <a href='https://arxiv.org/abs/2412.00115'><img src='https://img.shields.io/badge/arXiv-2412.00115-b31b1b.svg'></a>
+  <a href='https://fudan-generative-vision.github.io/OpenHumanVid'><img src='https://img.shields.io/badge/Project-Website-green'></a>
+</div>
 
-[![arXiv](https://img.shields.io/badge/arXiv-2412.00115-b31b1b.svg)](https://arxiv.org/abs/2412.00115)
-[![Project Page](https://img.shields.io/badge/Project-Website-green)](https://fudan-generative-vision.github.io/OpenHumanVid/#/)
+<div align='Center'>
+    <i><strong><a href='https://cvpr.thecvf.com/Conferences/2025' target='_blank'>CVPR 2025</a></strong></i>
+</div>
+<br>
 
 ## Introduction
 OpenHumanVid is a large-scale and high-quality human-centric video dataset characterized by precise and detailed captions that encompass both human appearance and motion states, along with supplementary human motion conditions, including skeleton sequences and speech audio.
